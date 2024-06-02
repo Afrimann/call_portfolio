@@ -128,7 +128,7 @@
     font-weight: 400;
 }
 
-@media screen and (max-width : 400px) {
+@media screen and (max-width : 500px) {
     .PersonalAbout {
         padding: 20px 30px;
 

@@ -16,7 +16,7 @@
     flex-direction: row;
     align-items: center;
 }
-@media screen and (max-width : 400px) {
+@media screen and (max-width : 500px) {
     .header-nav nav{
         display: none;
     }
