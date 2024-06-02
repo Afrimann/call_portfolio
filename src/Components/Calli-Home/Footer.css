@@ -1,4 +1,4 @@
-.Footer{
+.Footer {
     text-decoration: none;
     list-style: none;
     min-height: 60vh;
@@ -6,63 +6,79 @@
     background-color: #000;
     color: #fff;
 }
-.Footer-container{
+
+.Footer-container {
     display: flex;
     flex-flow: row;
     gap: 80px;
     justify-content: space-evenly;
 }
-.flex-1 img{
+
+.flex-1 img {
     padding-bottom: 40px;
     width: 200px;
 }
-.flex-3 ul li{
+
+
+.flex-3 ul li {
     color: #fff;
-    
+
 }
-.flex{
+
+.flex {
     flex: 2;
 }
-.flex .lg-title{
+
+.flex .lg-title {
     font-size: 25px;
 }
-.work-type{
+
+.work-type {
     padding-top: 40px;
 }
-.work-type li{
+
+.work-type li {
     color: #b84e35;
     font-weight: bold;
     padding-bottom: 20px;
 }
-.socials{
+
+.socials {
     padding-bottom: 40px;
 }
-.flex-3 > div{
+
+.flex-3>div {
     padding-top: 40px;
 }
-.flex-3 > div li{
+
+.flex-3>div li {
     padding-bottom: 10px;
 }
-.flex-2 .address{
+
+.flex-2 .address {
 
     padding-top: 40px;
 }
-.address span{display: block;
+
+.address span {
+    display: block;
     padding-bottom: 20px;
 }
-.flex-4 > div{
+
+.flex-4>div {
     padding-top: 40px;
 }
-.flex-4 > div li{
+
+.flex-4>div li {
     padding-bottom: 10px;
 }
 
-.social-icons{
+.social-icons {
     display: flex;
     gap: 30px;
 }
 
-.Footer .credit{
+.Footer .credit {
     padding-top: 80px;
     text-align: center;
 }
@@ -70,15 +86,45 @@
 
 /* ********* */
 @media screen and (max-width : 400px) {
-    .Footer-container{
-        flex-flow: row  wrap;
+    .Footer-container {
+        flex-flow: row wrap;
         gap: 30px;
         font-size: 13px;
     }
-    li{
-        font-size: 14px;
+
+    li {
+        font-size: 13px;
     }
-    .credit{
+
+    .credit {
         font-size: 15px;
     }
+
+    .flex-1 img {
+        padding-bottom: 20px;
+        width: 100px;
+    }
+    .flex-1 p{
+        font-size: 12px;
+    }
+
+    .flex .lg-title {
+        font-size: 19px;
+    }
+    .flex-4 div > li{
+        font-size: 12px;
+    }
+    .flex-3 div > li{
+        font-size: 12px;
+    }
+
+    .social-icons {
+        gap: 10px;
+    }
+
+    .address > span {
+        display: block;
+        font-size: 12px;
+    }
+
 }
