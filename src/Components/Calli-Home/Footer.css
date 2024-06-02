@@ -85,7 +85,7 @@
 
 
 /* ********* */
-@media screen and (max-width : 400px) {
+@media screen and (max-width : 600px) {
     .Footer-container {
         flex-flow: row wrap;
         gap: 30px;
