@@ -1,0 +1,62 @@
+::-webkit-scrollbar{
+    background: white;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(108, 69, 69);
+    border-radius: 50px;
+}
+.btn{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.btn:hover{
+    border-bottom: 2px solid #000;
+    background: transparent;
+    color: #000;
+    /* font-weight: bolder; */
+}
+.lg-title{
+    font-family: 'Damion';
+    font-weight: 500;
+}
+.btn-transparent{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #000;
+    border-bottom: 2px solid #bec4c9;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+
+/* about and recentworks section */
+/* .MinAbout{
+    padding: 20px 40px;
+    margin-top: 300px;
+    background-color: #000;
+    color: #fff;
+}
+
+.about-head{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.head-title span{
+    font-size: 80px;
+    font-family: 'Damion';
+}
+.head-title p{
+    padding-top: 30px;
+    max-width: 60%;
+}
+     */

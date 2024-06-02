@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Cedarville+Cursive&family=Damion&display=swap');
+
+.MinHome{
+
+    /* width: 100%; */
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+
+}
+.home{
+    padding-top: 150px;
+    /* outline: 2px solid #000; */
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.home-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-title > span{
+    font-size: 105px;
+    font-family: 'Damion';
+    font-weight: 500;
+    z-index: 1000;
+}
+@media screen and (max-width : 400px) {
+    .MinHome{
+        max-height: auto;
+    }
+    .home{
+        padding-top: 100px;
+    }
+    .home-title > span{
+        font-size: 60px;
+        text-align: center;
+        max-width: 95%;
+    }
+  .hand-image{
+    display: none;
+  }
+}
+.home-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 1000;
+}
+
+.home-btn .learn-more{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    color: #000;
+    border-bottom: 2px solid #bec4c9;
+    font-weight: 700;
+    
+}
+.hand-image{
+    width: 100%;
+    height: 100px;
+    margin-top : -150px;
+}
+.hand-image img{
+    
+    width: 100%;
+}

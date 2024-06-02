@@ -1,0 +1,9 @@
+.Home{
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background-color: #f7f9fc;
+
+}

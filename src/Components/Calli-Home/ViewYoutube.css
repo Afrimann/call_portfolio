@@ -1,0 +1,46 @@
+.ViewYoutubeVideo{
+    height: 80vh;
+    /* width: 100%; */
+}
+.ViewYoutubeVideo{
+    max-height: 80vh;
+    background-image: url(../Images/calligraphy-artist-home-video-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.youtubePlayBtn ion-icon{
+    position: absolute;
+    top: 15rem;
+    left: 38rem;
+    cursor: pointer;
+    color: #000;
+    font-size: 50px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 50%;
+    transition: .3s ease-in;
+}
+.youtubePlayBtn ion-icon:hover{
+    background-color: #000;
+    color: blue;
+}
+@media screen and (max-width : 400px) {
+    .ViewYoutubeVideo{
+        max-height: 60vh;
+        width: 100%;
+    }
+    .youtubePlayBtn ion-icon{
+        position: absolute;
+        top: 150px;
+        left: 130px;
+        cursor: pointer;
+        color: #000;
+        font-size: 30px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 50%;
+        transition: .3s ease-in;
+    }
+}

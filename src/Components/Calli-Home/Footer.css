@@ -1,0 +1,84 @@
+.Footer{
+    text-decoration: none;
+    list-style: none;
+    min-height: 60vh;
+    padding: 130px 40px;
+    background-color: #000;
+    color: #fff;
+}
+.Footer-container{
+    display: flex;
+    flex-flow: row;
+    gap: 80px;
+    justify-content: space-evenly;
+}
+.flex-1 img{
+    padding-bottom: 40px;
+    width: 200px;
+}
+.flex-3 ul li{
+    color: #fff;
+    
+}
+.flex{
+    flex: 2;
+}
+.flex .lg-title{
+    font-size: 25px;
+}
+.work-type{
+    padding-top: 40px;
+}
+.work-type li{
+    color: #b84e35;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.socials{
+    padding-bottom: 40px;
+}
+.flex-3 > div{
+    padding-top: 40px;
+}
+.flex-3 > div li{
+    padding-bottom: 10px;
+}
+.flex-2 .address{
+
+    padding-top: 40px;
+}
+.address span{display: block;
+    padding-bottom: 20px;
+}
+.flex-4 > div{
+    padding-top: 40px;
+}
+.flex-4 > div li{
+    padding-bottom: 10px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 30px;
+}
+
+.Footer .credit{
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+/* ********* */
+@media screen and (max-width : 400px) {
+    .Footer-container{
+        flex-flow: row  wrap;
+        gap: 30px;
+        font-size: 13px;
+    }
+    li{
+        font-size: 14px;
+    }
+    .credit{
+        font-size: 15px;
+    }
+}

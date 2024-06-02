@@ -1,0 +1,92 @@
+.MinAbout{
+    padding: 20px 40px;
+    margin-top: 300px;
+    background-color: #000;
+    color: #fff;
+}
+
+.about-head{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.head-title span{
+    font-size: 80px;
+    font-family: 'Damion';
+}
+
+.head-title p{
+    padding-top: 30px;
+    max-width: 60%;
+}
+.about-btn button{
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent;
+    padding: 15px 20px;
+}
+/* .......... */
+.flex-menu{
+    margin-top: 80px;
+    display: flex;
+    flex-flow: row;
+    gap: 60px;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+.menu-nav{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 40px;
+
+}
+.menu-link{
+    color: #fff;
+    font-size: 14px;
+}
+.menu>span:nth-of-type(1){
+    font-size: 40px;
+    font-family: 'Damion';
+}
+.menu > span:nth-of-type(2){
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+.menu>span:nth-of-type(3){
+    color: #c9c9c9;
+    padding-bottom: 30px;
+}
+
+/* media query */
+@media screen and (max-width : 400px) {
+    .about-head{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .head-title span{
+        font-size: 30px;
+    }
+    .head-title p{
+        padding-top: 30px;
+        max-width: 100%;
+    }
+    .about-btn button{
+        color: #fff;
+        border: 2px solid #fff;
+        background: transparent;
+        padding: 13px 18px;
+        margin-top: 10px;
+    }
+    .flex-menu{
+        flex-flow: column;
+        gap: 30px;
+    }
+
+}
