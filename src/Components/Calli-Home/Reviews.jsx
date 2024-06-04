@@ -37,7 +37,12 @@ const Reviews = () => {
 
     return (
         <div className='Reviews'>
-            <h2 style={{paddingBottom: '30px'}}>My Reviews</h2>
+            <motion.h2
+                variants={spanVariants}
+                initial="hidden"
+                whileInView="visible"
+
+                style={{ paddingBottom: '30px' }}>My Reviews</motion.h2>
 
             <motion.div
                 variants={parentVariants}
