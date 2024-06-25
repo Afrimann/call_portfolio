@@ -116,12 +116,12 @@ const PersonalAbout = () => {
                     </motion.div>
                 </div>
                 <motion.div
-                variants={childVariants}
-                initial = "hidden"
-                whileInView= "visible"
-                transition={{duration : 1.3}}
-                className="experiences">
-                    
+                    variants={childVariants}
+                    initial="hidden"
+                    whileInView="visible"
+                    transition={{ duration: 1.3 }}
+                    className="experiences">
+
                     <span className="exp-title">My Experiences</span>
                     <div className="list-of-experiences">
                         {

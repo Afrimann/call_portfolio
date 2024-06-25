@@ -3,6 +3,7 @@
     margin-top: 300px;
     background-color: #000;
     color: #fff;
+    z-index: 11;
 }
 
 .about-head{

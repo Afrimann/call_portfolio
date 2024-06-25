@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Cedarville+Cursive&family=Damion&display=swap');
 
-.MinHome{
-
+.MinHome {
     /* width: 100%; */
-    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
-
+    position: relative;
+    /* Ensure positioning context for the overlay */
 }
-.home{
+
+.home {
     padding-top: 150px;
     /* outline: 2px solid #000; */
     margin: auto auto;
@@ -17,55 +17,65 @@
     align-items: center;
     gap: 40px;
 }
-.home-title{
+
+.home-title {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.home-title > span{
+
+.home-title>span {
     font-size: 105px;
     font-family: 'Damion';
     font-weight: 500;
-    z-index: 1000;
+    z-index: 1;
+    /* Adjusted to lower value */
 }
-@media screen and (max-width : 500px) {
-    .MinHome{
+
+@media screen and (max-width: 500px) {
+    .MinHome {
         max-height: auto;
     }
-    .home{
+
+    .home {
         padding-top: 100px;
     }
-    .home-title > span{
+
+    .home-title>span {
         font-size: 60px;
         text-align: center;
         max-width: 95%;
     }
-  .hand-image{
-    display: none;
-  }
+
+    .hand-image {
+        display: none;
+    }
 }
-.home-btn{
+
+.home-btn {
     display: flex;
     align-items: center;
     gap: 20px;
-    z-index: 1000;
+    z-index: 1;
+    /* Adjusted to lower value */
 }
 
-.home-btn .learn-more{
+.home-btn .learn-more {
     background: transparent;
     display: flex;
     align-items: center;
     color: #000;
     border-bottom: 2px solid #bec4c9;
     font-weight: 700;
-    
 }
-.hand-image{
+
+.hand-image {
     width: 100%;
     height: 100px;
-    margin-top : -150px;
+    margin-top: -150px;
+    z-index: 1;
 }
-.hand-image img{
-    
+
+.hand-image img {
     width: 100%;
 }
