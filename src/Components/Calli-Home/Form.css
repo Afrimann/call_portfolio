@@ -1,0 +1,121 @@
+
+.Wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  /* Make Wrapper position fixed */
+  top: 0;
+  /* Stick to the top of the viewport */
+  left: 0;
+  /* Stick to the left of the viewport */
+  z-index: 1000;
+  /* High value to ensure it appears above other content */
+  background: rgba(0, 0, 0, 0.5);
+  /* Optional: Semi-transparent background */
+  backdrop-filter: blur(5px);
+  /* Apply blur effect */
+}
+
+.form {
+  height: 400px;
+  width: 400px;
+  background: rgba(200, 240, 230, 0.9);
+  /* Adjusted opacity for better visibility */
+  padding: 10px;
+  z-index: 1001;
+  border-radius: 20px;
+  /* Ensure it is above the .Wrapper background */
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container span {
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Poppins';
+}
+
+.form-body div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+/* Target all input elements inside .form-body div */
+.form-body div input,
+.form-body div textarea {
+  width: 300px; /* Make input width 100% of its container */
+  height: 40px; /* Adjust height as needed */
+  padding-left: 10px; /* Padding for better appearance */
+  border: none; /* Remove border */
+  border-radius: 6px; /* Rounded corners */
+  outline: none; /* Remove outline */
+  box-sizing: border-box; /* Include padding in width and height */
+}
+
+/* Style on focus */
+.form-body div input:focus,
+.form-body div textarea:focus {
+  border: none; /* Ensure border remains none */
+  outline: none; /* Ensure outline remains none */
+  background-color: rgba(255, 255, 255, 0.7); /* Optional: Change background on focus */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: Add subtle shadow */
+}
+
+.form-body button{
+  width: 100%;
+  border: none;
+  height: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.form-body div textarea{
+  resize: none;
+  padding: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  
+.Wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  /* Make Wrapper position fixed */
+  top: 0;
+  /* Stick to the top of the viewport */
+  left: 0;
+  /* Stick to the left of the viewport */
+  z-index: 1000;
+  /* High value to ensure it appears above other content */
+  background: rgba(0, 0, 0, 0.5);
+  /* Optional: Semi-transparent background */
+  backdrop-filter: blur(5px);
+  /* Apply blur effect */
+
+}
+.form {
+  height: 400px;
+  width: 370px;
+  background: rgba(200, 240, 230, 0.9);
+  /* Adjusted opacity for better visibility */
+  padding: 10px;
+  z-index: 1001;
+  border-radius: 20px;
+  /* Ensure it is above the .Wrapper background */
+}
+}
